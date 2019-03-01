@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 
 from trainers.re_ranking import re_ranking as re_ranking_func
 
+# comments 
 class ResNetEvaluator:
     def __init__(self, model):
         self.model = model
